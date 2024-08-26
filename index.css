@@ -1,0 +1,73 @@
+body {
+  background-image: url("park.jpg");
+
+  background-size: cover;
+  box-sizing: border-box;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.731);
+
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 2rem;
+  border-radius: 25px;
+  max-width: 50%;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#add-btn {
+  background: rgb(255, 245, 51);
+}
+
+#minus-btn {
+  background: rgb(241, 119, 19);
+}
+
+#save-btn {
+  background: rgb(0, 255, 0);
+}
+
+#delete-btn {
+  background: rgb(255, 255, 255);
+  width: 200px;
+  color: red;
+}

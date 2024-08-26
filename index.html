@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Entries Counter</h1>
+      <h2 id="counting">0</h2>
+      <div>
+        <button id="add-btn" onclick="addition()">+</button>
+        <button id="minus-btn" onclick="subtract()">-</button>
+      </div>
+      <button id="save-btn" onclick="save()">Save</button>
+      <h3>Index:</h3>
+      <p id="index"></p>
+      <button id="delete-btn" onclick="deleteEntry()">Delet last Entry</button>
+      <h3>Total Entries:</h3>
+      <p id="subTotal"></p>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>
