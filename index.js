@@ -47,23 +47,3 @@ function save() {
   count = 0;
   counting.textContent = count;
 }
-
-function deleteEntry() {
-  let entries = index.textContent.split("_ ");
-
-  // Check if there are entries to delete
-  if (entries.length > 1) {
-    let lastEntry = parseInt(entries.pop()); // Remove and get the last entry
-    let newTotal = parseInt(subTotal.textContent) - lastEntry; // Calculate the new total
-
-    // Update the index text content, removing the last entry
-    index.textContent = entries.join("_ ");
-
-    // Update the subtotal display
-    subTotal.textContent = newTotal;
-  } else {
-    // If there are no entries left, reset the subtotal to 0 and clear index content
-    index.textContent = "";
-    subTotal.textContent = 0;
-  }
-}
